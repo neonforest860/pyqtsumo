@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-04 19:10:20 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="/tmp/tmpnv73ickp/nodes.nod.xml"/>
+        <edge-files value="/tmp/tmpnv73ickp/edges.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/marvn/work/sumo/nets/net2.net.xml"/>
+    </output>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-1413.00,255.00" convBoundary="0.00,0.00,707.00,281.00" origBoundary="1413.00,-255.00,2120.00,26.00" projParameter="!"/>
+
+    <edge id=":node_1_0" function="internal">
+        <lane id=":node_1_0_0" index="0" speed="3.90" length="2.93" shape="563.68,-1.57 564.51,-1.61 565.10,-1.37 565.46,-0.85 565.60,-0.03"/>
+    </edge>
+    <edge id=":node_2_0" function="internal">
+        <lane id=":node_2_0_0" index="0" speed="5.90" length="9.11" shape="570.42,229.45 570.84,232.05 571.98,233.60 573.84,234.08 576.41,233.51"/>
+    </edge>
+    <edge id=":node_2_1" function="internal">
+        <lane id=":node_2_1_0" index="0" speed="8.31" length="13.02" shape="570.42,229.45 570.19,233.82 569.28,237.11 567.70,239.32 565.45,240.45"/>
+    </edge>
+    <edge id=":node_4_0" function="internal">
+        <lane id=":node_4_0_0" index="0" speed="13.89" length="9.71" shape="696.01,194.09 694.58,184.49"/>
+    </edge>
+    <edge id=":node_4_1" function="internal">
+        <lane id=":node_4_1_0" index="0" speed="3.65" length="1.25" shape="696.01,194.09 696.54,192.96"/>
+    </edge>
+    <edge id=":node_4_4" function="internal">
+        <lane id=":node_4_4_0" index="0" speed="3.65" length="3.43" shape="696.54,192.96 696.62,192.78 697.35,192.27 698.20,192.54 699.17,193.60"/>
+    </edge>
+    <edge id=":node_4_2" function="internal">
+        <lane id=":node_4_2_0" index="0" speed="6.78" length="8.28" shape="690.36,190.78 692.45,189.70 693.85,188.29 694.56,186.56 694.58,184.49"/>
+    </edge>
+    <edge id=":node_4_3" function="internal">
+        <lane id=":node_4_3_0" index="0" speed="6.65" length="10.97" shape="690.36,190.78 693.88,189.84 696.52,190.00 698.29,191.25 699.17,193.60"/>
+    </edge>
+    <edge id=":node_5_0" function="internal">
+        <lane id=":node_5_0_0" index="0" speed="3.65" length="4.67" shape="708.58,254.76 707.97,256.06 707.24,256.58 706.39,256.31 705.42,255.24"/>
+    </edge>
+
+    <edge id="edge_0" from="node_0" to="node_1" priority="-1">
+        <lane id="edge_0_0" index="0" speed="13.89" length="575.41" shape="-0.32,112.43 563.68,-1.57"/>
+    </edge>
+    <edge id="edge_1" from="node_1" to="node_2" priority="-1">
+        <lane id="edge_1_0" index="0" speed="13.89" length="229.54" shape="565.60,-0.03 570.42,229.45"/>
+    </edge>
+    <edge id="edge_2" from="node_2" to="node_3" priority="-1">
+        <lane id="edge_2_0" index="0" speed="13.89" length="189.83" shape="565.45,240.45 380.35,282.56"/>
+    </edge>
+    <edge id="edge_3" from="node_2" to="node_4" priority="-1">
+        <lane id="edge_3_0" index="0" speed="13.89" length="121.70" shape="576.41,233.51 690.36,190.78"/>
+    </edge>
+    <edge id="edge_4" from="node_4" to="node_5" priority="-1">
+        <lane id="edge_4_0" index="0" speed="13.89" length="61.87" shape="699.17,193.60 708.58,254.76"/>
+    </edge>
+    <edge id="edge_5" from="node_5" to="node_4" priority="-1">
+        <lane id="edge_5_0" index="0" speed="13.89" length="61.87" shape="705.42,255.24 696.01,194.09"/>
+    </edge>
+    <edge id="edge_6" from="node_4" to="node_6" priority="-1">
+        <lane id="edge_6_0" index="0" speed="13.89" length="105.36" shape="694.58,184.49 679.42,80.23"/>
+    </edge>
+
+    <junction id="node_0" type="dead_end" x="0.00" y="114.00" incLanes="" intLanes="" shape="-0.00,114.00 -0.63,110.86"/>
+    <junction id="node_1" type="priority" x="564.00" y="0.00" incLanes="edge_0_0" intLanes=":node_1_0_0" shape="564.00,0.00 567.20,-0.07 566.74,-2.11 566.20,-2.75 565.46,-3.13 564.51,-3.26 563.37,-3.14">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="node_2" type="priority" x="569.00" y="238.00" incLanes="edge_1_0" intLanes=":node_2_0_0 :node_2_1_0" shape="576.97,235.01 575.85,232.01 573.76,232.35 573.02,232.07 572.48,231.48 572.15,230.60 572.02,229.42 568.82,229.49 568.77,232.11 568.49,234.31 567.98,236.09 567.25,237.45 566.29,238.38 565.10,238.89 565.81,242.01 568.44,241.14 570.19,240.06 571.49,238.83 572.77,237.53 574.45,236.23">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="node_3" type="dead_end" x="380.00" y="281.00" incLanes="edge_2_0" intLanes="" shape="380.71,284.12 380.00,281.00"/>
+    <junction id="node_4" type="priority" x="697.00" y="190.00" incLanes="edge_5_0 edge_3_0" intLanes=":node_4_0_0 :node_4_4_0 :node_4_2_0 :node_4_3_0" shape="694.43,194.33 700.75,193.36 700.20,191.29 699.38,189.88 698.44,188.81 697.51,187.74 696.71,186.33 696.16,184.26 693.00,184.72 692.85,186.64 692.43,187.46 691.78,188.17 690.90,188.77 689.80,189.28 690.92,192.28 692.65,192.00 693.31,192.23 693.82,192.69 694.20,193.39">
+        <request index="0" response="1100" foes="1100" cont="0"/>
+        <request index="1" response="1000" foes="1000" cont="1"/>
+        <request index="2" response="0000" foes="0001" cont="0"/>
+        <request index="3" response="0000" foes="0011" cont="0"/>
+    </junction>
+    <junction id="node_5" type="priority" x="707.00" y="255.00" incLanes="edge_4_0" intLanes=":node_5_0_0" shape="707.00,255.00 710.16,254.51 707.00,255.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="node_6" type="dead_end" x="681.00" y="80.00" incLanes="edge_6_0" intLanes="" shape="677.83,80.46 681.00,80.00"/>
+
+    <junction id=":node_4_4_0" type="internal" x="696.54" y="192.96" incLanes=":node_4_1_0 edge_3_0" intLanes=":node_4_3_0"/>
+
+    <connection from="edge_0" to="edge_1" fromLane="0" toLane="0" via=":node_1_0_0" dir="l" state="M"/>
+    <connection from="edge_1" to="edge_3" fromLane="0" toLane="0" via=":node_2_0_0" dir="r" state="M"/>
+    <connection from="edge_1" to="edge_2" fromLane="0" toLane="0" via=":node_2_1_0" dir="l" state="M"/>
+    <connection from="edge_3" to="edge_6" fromLane="0" toLane="0" via=":node_4_2_0" dir="r" state="M"/>
+    <connection from="edge_3" to="edge_4" fromLane="0" toLane="0" via=":node_4_3_0" dir="l" state="M"/>
+    <connection from="edge_4" to="edge_5" fromLane="0" toLane="0" via=":node_5_0_0" dir="t" state="M"/>
+    <connection from="edge_5" to="edge_6" fromLane="0" toLane="0" via=":node_4_0_0" dir="s" state="m"/>
+    <connection from="edge_5" to="edge_4" fromLane="0" toLane="0" via=":node_4_1_0" dir="t" state="m"/>
+
+    <connection from=":node_1_0" to="edge_1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":node_2_0" to="edge_3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":node_2_1" to="edge_2" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":node_4_0" to="edge_6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":node_4_1" to="edge_4" fromLane="0" toLane="0" via=":node_4_4_0" dir="t" state="m"/>
+    <connection from=":node_4_4" to="edge_4" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":node_4_2" to="edge_6" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":node_4_3" to="edge_4" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":node_5_0" to="edge_5" fromLane="0" toLane="0" dir="t" state="M"/>
+
+</net>
